@@ -1,0 +1,27 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Large files & media
+models/
+output/
+input/
+
+# Knowledge graph & tool cache
+graphify-out/
+.cache/
+.jobs/
+.assets/
+.idea/
+.vscode/
+
+# Ensure project launcher scripts are tracked despite global gitignore
+!*.bat
+
